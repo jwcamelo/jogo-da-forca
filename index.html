@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Jogo da Forca</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="tela-principal">
+            <header>
+                <img src="/img/header1.png" alt="Jogo da Forca Header">
+            </header>
+            <div id="img-forca" class="img-forca">
+
+            </div>
+            <div class="dica">
+                <span id="dica"></span>
+            </div>
+
+            <div class="erros-acertos">
+                <div class="form">
+                    <form autocomplete="off" id="form" action="">
+                        <input maxlength="1" type="text" id="input-palpite" name="name">
+                        <input id="btn-chutar" type="button" value="JOGAR">
+                    </form>
+                </div>
+
+                <div class="enigma">
+                    <span>ACERTOS</span>
+                    <span id="span-enigma" class="letras-enigma"></span>
+                </div>
+                <div class="div-erros">
+                    <span id="span-erros">ERROS</span>
+                    <span id="span-letrasErradas"></span>
+                </div>
+
+            </div>
+            <a id="adicionar-palavra">adicionar palavra</a>
+        </div>
+        <a id="footer" href="https://github.com/jwcamelo" target="_blank">Desenvolvido por jwcamelo</a>
+    </div>
+    <script src="/js/sweetalert2.all.min.js"></script>
+    <script src="/js/main.js"></script>
+    <script src="/js/adicionarPalavra.js"></script>
+
+</body>
+
+</html>

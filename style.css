@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+body {
+    margin: 0px;
+    text-align: center;
+}
+
+span {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("/img/bg.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    margin-bottom: 150px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.tela-principal {
+    box-shadow: 10px 10px 5px;
+    width: 1000px;
+    height: 650px;
+    background-image: url("/img/bg1.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.img-forca {
+    position: relative;
+    top: 68px;
+    left: 300px;
+    width: 100px;
+    height: 150px;
+    margin-bottom: 120px;
+}
+
+.dica {
+    margin: auto;
+    text-align: center;
+    width: 95%;
+}
+
+#dica {
+    font-size: 15px;
+    color: #E2C093;
+    font-family: 'VT323', monospace;
+}
+
+.erros-acertos {
+    font-family: 'VT323', monospace;
+    font-weight: 500;
+    width: 95%;
+    margin: auto;
+    background-color: #e2d3d215;
+    color: #E2C093;
+    display: flex;
+    justify-content: space-around;
+}
+
+.enigma {
+    text-align: center;
+    width: 30%;
+}
+
+.div-erros {
+    text-align: center;
+    width: 30%;
+}
+
+div.form {
+    display: flex;
+    align-items: center;
+    margin-left: 0;
+}
+
+#btn-chutar {
+    margin: 5px;
+    border: none;
+    padding: 10px;
+    font-weight: 700;
+    width: 100px;
+    font-size: 20px;
+    font-family: 'VT323', monospace;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #BD6A3E;
+    box-shadow: 0 5px 0 #c74c0ad8;
+}
+
+#btn-chutar:hover {
+    background-color: #bd551c;
+    box-shadow: 0 5px 0 #c04a0bd8;
+}
+
+#btn-chutar:active {
+    box-shadow: none;
+    position: relative;
+    top: 5px;
+}
+
+#input-palpite {
+    width: 50px;
+    height: 30px;
+    font-size: 20px;
+    outline: none;
+}
+
+#adicionar-palavra {
+    display: block;
+    margin-top: 15px;
+    color: #E2C093;
+    font-family: 'VT323', monospace;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#footer {
+    margin: 10px;
+    font-family: 'VT323', monospace;
+    color: #E2C093;
+    text-decoration: underline;
+    font-size: 15px;
+}
+
+.erro1 {
+    background-image: url("/img/erro-1.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.erro2 {
+    background-image: url("/img/erro-2.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.erro3 {
+    background-image: url("/img/erro-3.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.erro4 {
+    background-image: url("/img/erro-4.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.erro5 {
+    background-image: url("/img/erro-5.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.erro6 {
+    background-image: url("/img/erro-6.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.erro7 {
+    background-image: url("/img/erro-7.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
