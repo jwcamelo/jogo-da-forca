@@ -123,7 +123,7 @@ div.form {
 
 #adicionar-palavra {
     display: block;
-    margin-top: 15px;
+    margin-top: 10px;
     color: #E2C093;
     font-family: 'VT323', monospace;
     text-decoration: underline;
@@ -185,4 +185,156 @@ div.form {
     background-position: top;
     background-repeat: no-repeat;
     background-size: auto;
+}
+
+#forca-mobile {
+    display: none;
+}
+
+.teclado {
+    display: none;
+    margin-top: 10px;
+}
+
+.key {
+    border: 1px solid black;
+    background-color: #e2d3d215;
+    color: #E2C093;
+    font-family: 'VT323', monospace;
+    text-decoration: none;
+    box-sizing: border-box;
+    width: 10%;
+    font-size: 30px;
+    padding: 5px 0;
+}
+
+.break {
+    width: 100%;
+}
+
+@media(max-width:450px) {
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: rgb(27, 27, 24);
+    }
+    .container {
+        margin: 0;
+        padding: 0;
+        background-image: none;
+        justify-content: space-between;
+        background-color: rgb(27, 27, 24);
+    }
+    .tela-principal {
+        width: 100%;
+        height: auto;
+        background-image: none;
+        background-color: rgb(27, 27, 24);
+        box-shadow: none;
+    }
+    .img-forca {
+        position: static;
+        margin: auto;
+        margin-top: 15px;
+        height: 276px;
+        width: 250px;
+        background-image: url("/img/bgmobile.png");
+        border: 1px solid #e2c09383;
+    }
+    header {
+        display: none;
+    }
+    .teclado {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 95%;
+    }
+    form {
+        display: none;
+    }
+    .enigma {
+        min-width: 150px;
+        display: block;
+    }
+    .div-erros {
+        min-width: 150px;
+        display: block;
+    }
+    .erros-acertos {
+        padding: 5px 0;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .erro1 {
+        background-image: url("/img/bgmobile.png");
+    }
+    .erro2 {
+        background-image: url("/img/bgmobile.png");
+    }
+    .erro3 {
+        background-image: url("/img/bgmobile.png");
+    }
+    .erro4 {
+        background-image: url("/img/bgmobile.png");
+    }
+    .erro5 {
+        background-image: url("/img/bgmobile.png");
+    }
+    .erro6 {
+        background-image: url("/img/bgmobile.png");
+    }
+    .erro7 {
+        background-image: url("/img/bgmobile.png");
+    }
+    #forca-mobile {
+        display: block;
+        width: 50px;
+        height: 140px;
+        position: relative;
+        top: 126px;
+        left: 144px;
+    }
+    .erro1-mobile {
+        background-image: url("/img/erro-1.png");
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .erro2-mobile {
+        background-image: url("/img/erro-2.png");
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .erro3-mobile {
+        background-image: url("/img/erro-3.png");
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .erro4-mobile {
+        background-image: url("/img/erro-4.png");
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .erro5-mobile {
+        background-image: url("/img/erro-5.png");
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .erro6-mobile {
+        background-image: url("/img/erro-6.png");
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .erro7-mobile {
+        background-image: url("/img/erro-7.png");
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 }
