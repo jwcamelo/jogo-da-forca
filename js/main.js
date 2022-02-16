@@ -14,6 +14,7 @@ var erro = 0;
 var spanLetrasErradas = document.querySelector("#span-letrasErradas");
 var letrasErradas = [""];
 var imgForca = document.querySelector("#img-forca");
+var forcaMobile = document.querySelector("#forca-mobile");
 var resposta = sortarPalavra(temas);
 while (resposta == "") {
     var resposta = sortarPalavra(temas)
@@ -156,29 +157,42 @@ function carregarImagemForca(erro) {
     if (erro == 1) {
         imgForca.classList.remove("erro0");
         imgForca.classList.add("erro1")
+        forcaMobile.classList.add("erro1-mobile");
     }
     if (erro == 2) {
         imgForca.classList.remove("erro1");
-        imgForca.classList.add("erro2")
+        imgForca.classList.add("erro2");
+        forcaMobile.classList.remove("erro1-mobile");
+        forcaMobile.classList.add("erro2-mobile");
     }
     if (erro == 3) {
         imgForca.classList.remove("erro2");
         imgForca.classList.add("erro3")
+        forcaMobile.classList.remove("erro2-mobile");
+        forcaMobile.classList.add("erro3-mobile");
     }
     if (erro == 4) {
         imgForca.classList.remove("erro3");
         imgForca.classList.add("erro4")
+        forcaMobile.classList.remove("erro3-mobile");
+        forcaMobile.classList.add("erro4-mobile");
     }
     if (erro == 5) {
         imgForca.classList.remove("erro4");
-        imgForca.classList.add("erro5")
+        imgForca.classList.add("erro5");
+        forcaMobile.classList.remove("erro4-mobile");
+        forcaMobile.classList.add("erro5-mobile");
     }
     if (erro == 6) {
         imgForca.classList.remove("erro5");
-        imgForca.classList.add("erro6")
+        imgForca.classList.add("erro6");
+        forcaMobile.classList.remove("erro5-mobile");
+        forcaMobile.classList.add("erro6-mobile");
     }
     if (erro >= 7) {
         imgForca.classList.remove("erro6");
-        imgForca.classList.add("erro7")
+        imgForca.classList.add("erro7");
+        forcaMobile.classList.remove("erro6-mobile");
+        forcaMobile.classList.add("erro7-mobile");
     }
 }
