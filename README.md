@@ -1,5 +1,5 @@
 # jogo-da-forca
-Minha versão do Jogo da forca simples. O projeto foi desenvolvido usando HTML,JS,CSS.
+Jogo da forca usando HTML, CSS, JS. O projeto foi desenvolvido durante o programa Oracle Next Education na Alura.
 
 ### Veja funcionando >>> https://naughty-brahmagupta-541fac.netlify.app/
 
